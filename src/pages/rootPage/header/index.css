@@ -1,0 +1,200 @@
+.minePage {
+    background-color: rgb(8, 7, 7);
+    padding: 30px 0px;
+    display: flex;
+    flex-direction: column;
+}
+.swordImage {
+    width: 28%;
+    height: 60%;
+    margin: auto;
+}
+.search {
+    display: flex;
+}
+.searchPannel {
+    width: 67%;
+    outline: none;
+    margin: auto;
+    padding: 10px;
+    height: 17%;
+    border-top-left-radius: 14px;
+    border-bottom-left-radius: 14px;
+    border-top-right-radius: 60px;
+    border-bottom-right-radius: 60px;
+    margin-left: -17px;
+    background-color: inherit;
+    color: white;
+    border: none;
+}
+.searchPannel:hover {
+    background-color: #e2f0ef;
+    box-shadow: #30d5c8 1px 0 20px;
+    color: black;
+    transition: 0.7s;
+}
+header {
+    display: flex;
+}
+header ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+}
+header li {
+    margin-right: 20px;
+    text-decoration: none;
+}
+header .peoples {
+    text-decoration: none;
+    color: #fff;
+}
+header .peoples:hover {
+    color: #ff0000a4;
+    text-shadow: hsl(0, 71%, 66%) 1px 0 50px;
+}
+header .planets {
+    text-decoration: none;
+    color: #fff;
+}
+header .planets:hover {
+    color: #0000ff83;
+    text-shadow: #6d6dee 1px 0 20px;
+}
+header .films {
+    text-decoration: none;
+    color: #fff;
+}
+header .films:hover {
+    color: #30d5c7b3;
+    text-shadow: #30d5c8 1px 0 20px;
+}
+header .species {
+    text-decoration: none;
+    color: #fff;
+}
+header .species:hover {
+    color: #ffd700;
+    text-shadow: #e4d26f 1px 0 20px;
+}
+header .vehicles {
+    text-decoration: none;
+    color: #fff;
+}
+header .vehicles:hover {
+    color: #8000ff;
+    text-shadow: #b17ae8 1px 0 20px;
+}
+header .starships {
+    text-decoration: none;
+    color: #fff;
+}
+header .starships:hover {
+    color: #00ff00;
+    text-shadow: #6de66d 1px 0 20px;
+}
+.homePage {
+    margin: auto;
+    width: 10%;
+    height: 15%;
+    display: flex;
+    background-color: black;
+    border: none;
+    cursor: pointer;
+}
+.homePage img {
+    width: 100%;
+    height: 30%;
+    margin: auto;
+}
+
+@media (max-width: 1200px) {
+    .minePage {
+        background-color: rgb(8, 7, 7);
+        padding: 30px 0px;
+        display: flex;
+        flex-direction: column;
+    }
+    .swordImage {
+        width: 15%;
+        height: 15%;
+        margin-top: 30px;
+    }
+    .searchPannel {
+        width: 35%;
+        margin-left: -270px;
+        height: 10px;
+        margin-top: 30px;
+    }
+    header {
+        display: flex;
+        flex-direction: column;
+    }
+    header ul {
+        display: flex;
+        margin-top: 40px;
+        justify-content: center;
+    }
+}
+@media (max-width: 1000px) {
+    .minePage {
+        background-color: rgb(8, 7, 7);
+        padding: 30px 0px;
+        display: flex;
+        flex-direction: column;
+    }
+    .swordImage {
+        width: 15%;
+        height: 15%;
+        margin-top: 35px;
+    }
+    .searchPannel {
+        width: 25%;
+        margin-left: -265px;
+        height: 2px;
+        margin-top: 35px;
+    }
+    header {
+        display: flex;
+        flex-direction: column;
+    }
+    header ul {
+        display: flex;
+        margin-top: 40px;
+        justify-content: center;
+    }
+}
+@media (max-width: 800px) {
+    .minePage {
+        background-color: rgb(8, 7, 7);
+        padding: 30px 0px;
+        display: flex;
+        flex-direction: column;
+    }
+    .swordImage {
+        width: 18%;
+        height: 15%;
+        margin-top: 35px;
+    }
+    .searchPannel {
+        width: 25%;
+        margin-left: -185px;
+        height: 0px;
+        margin-top: 35px;
+    }
+    header {
+        display: flex;
+        flex-direction: column;
+    }
+    header ul {
+        display: flex;
+        margin-top: 40px;
+        justify-content: center;
+    }
+}
+@media (max-width: 600px) {
+}
+@media (max-width: 400px) {
+}

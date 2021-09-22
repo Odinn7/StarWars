@@ -1,0 +1,124 @@
+.starshipsContainer {
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-around;
+}
+.starshipss {
+    border: white 1px solid;
+    margin-bottom: 20px;
+    background-color: black;
+    padding: 10px 10px 10px 20px;
+    align-items: center;
+    width: 20%;
+}
+.starshipss p {
+    width: 100%;
+    display: flex;
+    color: white;
+    font-size: 2vh;
+}
+.starshipss img {
+    display: flex;
+    width: 40vh;
+}
+.button {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+.loadMoreButtStarships {
+    background: linear-gradient(to top, rgba(174, 44, 44, 0.583), rgb(223, 173, 173));
+    border-radius: 10px;
+    color: white;
+    border: none;
+    padding: 20px;
+}
+.loadMoreButtStarships:hover {
+    background: linear-gradient(to top, rgb(223, 173, 173), rgba(174, 44, 44, 0.583));
+}
+@media (max-width: 1200px) {
+    .starshipsContainer {
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .starshipss img {
+        display: flex;
+        width: 13rem;
+    }
+}
+@media (max-width: 1000px) {
+    .starshipsContainer {
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .starshipss img {
+        display: flex;
+        width: 11rem;
+    }
+    .starshipss p {
+        width: 100%;
+        display: flex;
+        color: white;
+        font-size: 1.5vh;
+    }
+}
+@media (max-width: 800px) {
+    .starshipsContainer {
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .starshipss img {
+        display: flex;
+        width: 7rem;
+    }
+    .starshipss p {
+        width: 100%;
+        display: flex;
+        color: white;
+        font-size: 1.5vh;
+    }
+}
+@media (max-width: 600px) {
+    .starshipsContainer {
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .starshipss img {
+        display: flex;
+        width: 5rem;
+    }
+    .starshipss p {
+        width: 100%;
+        display: flex;
+        color: white;
+        font-size: 1vh;
+    }
+}
+@media (max-width: 400px) {
+    .starshipsContainer {
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .starshipss img {
+        display: flex;
+        width: 2rem;
+    }
+    .starshipss p {
+        width: 100%;
+        display: flex;
+        color: white;
+        font-size: 0.5vh;
+    }
+}
