@@ -1,0 +1,1 @@
+export const selectStarships = state => state.starships.starships;
